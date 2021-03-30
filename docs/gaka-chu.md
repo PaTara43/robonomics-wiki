@@ -46,7 +46,7 @@ Add source command to `.bashrc` file:
 echo “source ~/catkin_ws/devel/setup.bash” >> ~/.bashrc
 source ~/.bashrc
 ```
-Up to now. you should be able to launch the scripts. If something goes wrong, try some [troubleshooting](https://github.com/airalab/robot_painter/issues)
+Up to now you should be able to launch the scripts. If something goes wrong, try some [troubleshooting](https://github.com/airalab/robot_painter/issues).
 
 ## Filling in constants
 First of all, the robot needs to know canvas location and orientation as well as the paint tin position. All of this is specified in `fake_painter_enviroment_tf/src/tf_broadcaster.cpp`. Let's take a look into it.
@@ -91,7 +91,7 @@ The calibration process itself is pretty simple.
 
 1) Start EKI interface on the KRC4:
 
-Log in in 'AUT' mode, turn on drivers and launch the script `eki_hw_interface`
+Log in in 'AUT' mode, turn on drivers and launch the script `eki_hw_interface`.
 
 2) Start EKI interface on the NUC
 ```
