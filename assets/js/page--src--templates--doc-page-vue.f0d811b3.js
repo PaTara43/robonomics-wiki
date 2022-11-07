@@ -2552,7 +2552,7 @@ eval("module.exports = __webpack_require__.p + \"assets/img/how-to-build-collato
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"assets/img/home-assistant-x-robonomics-en.b3cb7083.png\";\n\n//# sourceURL=webpack:///./docs/docsCovers/home-assistant-x-robonomics-en.png?");
+eval("module.exports = __webpack_require__.p + \"assets/img/home-assistant-x-robonomics-en.305b2583.png\";\n\n//# sourceURL=webpack:///./docs/docsCovers/home-assistant-x-robonomics-en.png?");
 
 /***/ }),
 
