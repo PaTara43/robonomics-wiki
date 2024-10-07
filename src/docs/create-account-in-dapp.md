@@ -83,7 +83,7 @@ You should see the following popup menu with account seed.
 
 It has two forms: *Mnemonic* (human-readable) and *Raw* (a sequence of digits and letters). Save the seed phrase securely and press `Next`.
 
-> Also you can change the crypto type of creating account, for that open `Advanced creation options` and choose the type (`ed25519` on the picture).
+> Also you can, **if needed (e.g. for controller/user account)** change the crypto type of creating account, for that open `Advanced creation options` and choose the type (`ed25519` on the picture).
 
 {% roboWikiPicture {src:"docs/creating-an-account/ed-account.jpg", alt:"ed25519 crypto type account"} %}{% endroboWikiPicture %}
 

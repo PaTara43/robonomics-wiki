@@ -7,7 +7,7 @@ tools:
     https://github.com/airalab/homeassistant-robonomics-integration
 ---
 
-**In this article, you will add Robonomics to Home Assistant. This allows Home Assistant to record datalogs with encrypted data to Robonomics Parachain and listen to launch commands from the parachain to control smart devices. Integration uses IPFS to store data and send IPFS hashes to datalog or launch functions.**
+**In this article, you will add Robonomics to Home Assistant. This allows Home Assistant to record datalogs with encrypted data to Robonomics Parachain and listen to launch commands from the parachain and peer-to-peer network to control smart devices. Integration uses IPFS to store data and send IPFS hashes to datalog or launch functions.**
 
 {% roboWikiPicture {src: 'docs/home-assistant/integration-setup.png', alt: 'integration setup'}%} {% endroboWikiPicture %}
 
@@ -26,14 +26,7 @@ Now you can install the Robonomics integration. To do so, follow these steps:
 
 1. In the web interface of Home Assistant go to `Settings` -> `Device & Services` and press `ADD INTEGRATION`. Search for `Robonomics`.
 
-2. Click on Robonomics and fill in the configuration:
-
-- Add seed from the `SUB_CONTROLLER` account to controller account seed.
-- Add the public address of the `SUB_OWNER` account to the subscription owner address.
-- Set the interval of data sending (by default it is 10 minutes).
-- (Optional) You can add credentials for pinning service Pinata or other custom gateway to spread your data wider over the IPFS network.
-
-{% roboWikiNote {title:"Note", type: "Note"}%} In [Pinata Setup section](/docs/pinata-setup) you can find more detailed information about using Pinata.{% endroboWikiNote %}
+2. Click on Robonomics, wait till the wizard finishes set up, tick the warnings and upload a backup JSON file downloaded on the previous step. Provide password and specify whether its Kusama or Polkadot parachain.
 
 3. Press `SUBMIT` after finishing the configuration. If you filled in everything correctly, you will see the success window.
 

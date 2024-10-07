@@ -149,10 +149,10 @@ You have more that 1 connected devices. Please choose one
 
 ## Post-installation
 
-After everything has started, you can use the `update.sh` script to update the version of Docker packages. This script will download new versions, 
+After everything has started, you can use the `update.bash` script to update the version of Docker packages. This script will download new versions, 
 delete old versions of packages, and restart everything automatically, saving all your configurations.
 
 To stop everything, use the `stop.sh` script.
-
+To resume, use the same `update.bash` script.
 
 That's all. Continue to the next article.
