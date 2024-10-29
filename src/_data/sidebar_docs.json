@@ -114,7 +114,23 @@
               {
                 "title": "Robonomics Integration Setup",
                 "url": "/docs/robonomics-hass-integration",
-                "topic": "Upgrade Home Assistant Core"
+                "topic": "Upgrade Home Assistant Core",
+                "next": [
+                  {
+                    "title": "Add User",
+                    "url": "/docs/add-user"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Home Server on RISC-V",
+            "url": "/docs/home-server-on-risc",
+            "next": [
+              {
+                "title": "Add User",
+                "url": "/docs/add-user"
               }
             ]
           }
@@ -253,7 +269,7 @@
         "url": "/docs/how-to-build-collator-node"
       },
       {
-        "title": "How to launch the Robonomics collator",
+        "title": "Launch of Robonomics Collator",
         "url": "/docs/how-to-launch-the-robonomics-collator"
       },
       {
@@ -271,6 +287,19 @@
       {
         "title": "How to Contribute",
         "url": "/docs/contributing"
+      }
+    ]
+  },
+  {
+    "title": "Robotics and ROS 2",
+    "children": [
+      {
+        "title": "About Robonomics ROS 2 Wrapper",
+        "url": "/docs/ros2-about-wrapper"
+      },
+      {
+        "title": "Launch Robot from Cloud",
+        "url": "/docs/ros2-launch-robot-cloud"
       }
     ]
   }

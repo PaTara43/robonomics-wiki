@@ -15,6 +15,7 @@
 	"Robonomics Installation": "Robonomics Installation",
 	"Upgrade Home Assistant Docker for Unix-like OS": "Upgrade Home Assistant Docker for Unix-like OS",
 	"Upgrade Home Assistant Core": "Upgrade Home Assistant Core",
+	"Home Server on RISC-V": "Home Server on RISC-V",
 	"Use": "Use",
 	"Get Smart Home Telemetry": "Get Smart Home Telemetry",
 	"Backup Services": "Backup Services",
@@ -46,7 +47,6 @@
 	"Robonomics on Ethereum": "Robonomics on Ethereum",
 	"Robonomics OpenGov": "Robonomics OpenGov",
 	"How to build collator node from source": "How to build collator node from source",
-	"How to launch the Robonomics collator": "How to launch the Robonomics collator",
 	"How to Update Collator Node Version": "How to Update Collator Node Version",
 	"How to send extrinsic from ESP": "How to send extrinsic from ESP",
 	"How to Edit Wiki": "How to Edit Wiki",
@@ -105,8 +105,6 @@
 	"Inform us": "Inform us",
 	"please, if you find any": "please, if you find any",
 	"Robonomics smart devices": "Robonomics smart devices",
-	"Working with parachain": "Working with parachain",
-	"Home Assistant integration": "Home Assistant integration",
 	"Create an issue": "Create an issue",
 	"entry.title": "entry.title",
 	"text": "text",
@@ -139,5 +137,11 @@
 	"You are currently opted out.": "You are currently opted out.",
 	"Check this box to opt-in.": "Check this box to opt-in.",
 	"{# for tanslation": "{# for tanslation",
-	"#}": "#}"
+	"#}": "#}",
+	"Robotics and ROS 2": "Robotics and ROS 2",
+	"About Robonomics ROS 2 Wrapper": "About Robonomics ROS 2 Wrapper",
+	"Launch Robot from Cloud": "Launch Robot from Cloud",
+	"Launch of Robonomics Collator": "Launch of Robonomics Collator",
+	"Home Assistant integration": "Home Assistant integration",
+	"Working with parachain": "Working with parachain"
 }
